@@ -5,9 +5,15 @@ const randId = require("../ranid");
 
 const apiRouter = express.Router();
 
+// get request for /api/notes
+
 apiRouter.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "../db/db.json"));
 });
+
+// post req for /api/notes to push new data from req body with id
+// as object to read array data. then re write- over existing data
+// with pushed newdata included.
 
 apiRouter.post("/notes", (req, res) => {
   const { title, text } = req.body;
@@ -38,6 +44,10 @@ apiRouter.post("/notes", (req, res) => {
     }
   });
 });
+
+// delete request for /api/note/:id takes the request params, reads db.json
+// parsesdata then the index is found and parseddata is spliced by index,1.
+// data is then re written to the db.js with specific id deleted.
 
 apiRouter.delete("/notes/:id", (req, res) => {
   let id = req.params.id;
