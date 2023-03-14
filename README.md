@@ -8,7 +8,7 @@
 
 
 
-  ## Table of contents
+  ## Table of contents 
   
   - [ Link ](#link)
   - [ Screenshot ](#screenshot)
@@ -22,13 +22,13 @@
 
   ## Link
   
-  [Click Here](www.heroku.com) to go to the repo link.
+  [Click Here](https://noteserver.herokuapp.com/) to go to the deployed link.
   
 
 
   ## Screenshot
   
-  ![image](./img/nsss.png)
+  ![image](./img/nsss.png) 
   
 
   
@@ -40,7 +40,7 @@
   
   ## Usage
   
-  To use the package you can click the button that says get started, you will be redirected to /notes route which will allow you to write a note by filling in both of the text areas, then clicking the save icon in the top right corner. To veiw the note taken you can click the note on the left hand side, which will show the note in the main area. To switch back to adding a note you can click the plus icon in the top right corner, finally to delete a note you can click the trash can beside the note which will remove the note and its data. 
+  To use the package you can click the button that says get started, you will be redirected to /notes route which will allow you to write a note by filling in both of the text areas, then clicking the save icon in the top right corner. To view the note taken you can click the note on the left hand side, which will show the note in the main area. To switch back to adding a note you can click the plus icon in the top right corner, finally to delete a note you can click the trash can beside the note which will remove the note and its data. 
   
   
   ## Contributions
